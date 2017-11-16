@@ -1,4 +1,4 @@
-update=Mercredi 15 novembre 2017 'à' 16:39:44
+update=Jeudi 16 novembre 2017 'à' 15:50:18
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,4 +59,3 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=Gajda_amplif
