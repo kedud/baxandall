@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:baxandall-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -108,17 +109,6 @@ F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3730 6350 50  0001 C CN
 F 3 "" H 3800 6350 50  0000 C CNN
 	1    3800 6350
 	0    1    1    0   
-$EndComp
-$Comp
-L OP275 U1
-U 1 1 56A0BD66
-P 5050 5350
-F 0 "U1" H 5050 5500 50  0000 L CNN
-F 1 "OP275" H 5050 5200 50  0000 L CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4950 5400 50  0001 C CNN
-F 3 "" H 5050 5500 50  0000 C CNN
-	1    5050 5350
-	1    0    0    1   
 $EndComp
 $Comp
 L C C4
@@ -264,17 +254,6 @@ Text Label 7450 950  0    60   ~ 0
 -15
 Text Label 7150 1050 2    60   ~ 0
 GND
-$Comp
-L OP275 U1
-U 2 1 56AA63D5
-P 5050 2700
-F 0 "U1" H 5050 2850 50  0000 L CNN
-F 1 "OP275" H 5050 2550 50  0000 L CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4950 2750 50  0001 C CNN
-F 3 "" H 5050 2850 50  0000 C CNN
-	2    5050 2700
-	1    0    0    1   
-$EndComp
 Text Label 4950 3000 0    60   ~ 0
 +15
 Text Label 4950 5050 0    60   ~ 0
@@ -439,9 +418,14 @@ L POT_Dual RV1
 U 1 1 5A0C7426
 P 6900 3400
 F 0 "RV1" H 6900 3550 50  0000 C CNN
-F 1 "POT_Dual" H 6900 3475 50  0000 C CNN
+F 1 "50K 1B" H 6900 3475 50  0000 C CNN
 F 2 "" H 7150 3325 50  0001 C CNN
-F 3 "" H 7150 3325 50  0001 C CNN
+F 3 "http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09L/RK09L122002M.html" H 7150 3325 50  0001 C CNN
+F 4 "RK09L122002M" H 6900 3400 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6900 3400 60  0001 C CNN "Distributor"
+F 6 "688-RK09L122002M" H 6900 3400 60  0001 C CNN "Distributor Part #"
+F 7 "Potentiomètres 50 KOhms 20%" H 6900 3400 60  0001 C CNN "Description"
+F 8 "ALPS" H 6900 3400 60  0001 C CNN "Manufacturer"
 	1    6900 3400
 	0    1    1    0   
 $EndComp
@@ -457,17 +441,6 @@ Wire Wire Line
 	6800 3500 6650 3500
 Wire Wire Line
 	6650 3800 6800 3800
-$Comp
-L POT_Dual RV2
-U 1 1 5A0C7786
-P 6900 4400
-F 0 "RV2" H 6900 4550 50  0000 C CNN
-F 1 "POT_Dual" H 6900 4475 50  0000 C CNN
-F 2 "" H 7150 4325 50  0001 C CNN
-F 3 "" H 7150 4325 50  0001 C CNN
-	1    6900 4400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6650 4800 6800 4800
 Wire Wire Line
@@ -480,4 +453,54 @@ Wire Wire Line
 	7000 4150 7100 4150
 Wire Wire Line
 	7100 4650 7000 4650
+$Comp
+L NE5532 U1
+U 2 1 5A0DA73B
+P 5050 2700
+F 0 "U1" H 5050 2900 50  0000 L CNN
+F 1 "NE5532" H 5050 2500 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5050 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 5050 2700 50  0001 C CNN
+F 4 "NE5532P" H 5050 2700 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5050 2700 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 5050 2700 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 5050 2700 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 5050 2700 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 5050 2700 60  0001 C CNN "Manufacturer"
+	2    5050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U1
+U 1 1 5A0DAB29
+P 5050 5350
+F 0 "U1" H 5050 5550 50  0000 L CNN
+F 1 "NE5532" H 5050 5150 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5050 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 5050 5350 50  0001 C CNN
+F 4 "NE5532P" H 5050 5350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5050 5350 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 5050 5350 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 5050 5350 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 5050 5350 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 5050 5350 60  0001 C CNN "Manufacturer"
+	1    5050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT_Dual RV2
+U 1 1 5A0DB04F
+P 6900 4400
+F 0 "RV2" H 6900 4550 50  0000 C CNN
+F 1 "50K 1B" H 6900 4475 50  0000 C CNN
+F 2 "" H 7150 4325 50  0001 C CNN
+F 3 "http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09L/RK09L122002M.html" H 7150 4325 50  0001 C CNN
+F 4 "RK09L122002M" H 6900 4400 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6900 4400 60  0001 C CNN "Distributor"
+F 6 "688-RK09L122002M" H 6900 4400 60  0001 C CNN "Distributor Part #"
+F 7 "Potentiomètres 50 KOhms 20%" H 6900 4400 60  0001 C CNN "Description"
+F 8 "ALPS" H 6900 4400 60  0001 C CNN "Manufacturer"
+	1    6900 4400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
