@@ -234,7 +234,13 @@ P 7900 1050
 F 0 "P3" H 7900 1250 50  0000 C CNN
 F 1 "CONN_01X03" V 8000 1050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 7900 1050 50  0001 C CNN
-F 3 "" H 7900 1050 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11021-538004.pdf" H 7900 1050 50  0001 C CNN
+F 4 "61300311021" H 7900 1050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7900 1050 60  0001 C CNN "Distributor"
+F 6 "710-61300311021" H 7900 1050 60  0001 C CNN "Distributor Part #"
+F 7 "3-THT" H 7900 1050 60  0001 C CNN "Package"
+F 8 "Embases et logements de câbles WR-PHD 2.54mm Hdr 3P Single RA Gold" H 7900 1050 60  0001 C CNN "Description"
+F 9 "Wurth Electronics" H 7900 1050 60  0001 C CNN "Manufacturer"
 	1    7900 1050
 	1    0    0    1   
 $EndComp
@@ -245,7 +251,13 @@ P 2800 1050
 F 0 "P1" H 2800 1300 50  0000 C CNN
 F 1 "CONN_01X04" V 2900 1050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 2800 1050 50  0001 C CNN
-F 3 "" H 2800 1050 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11021-538004.pdf" H 2800 1050 50  0001 C CNN
+F 4 "61300411021" H 2800 1050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2800 1050 60  0001 C CNN "Distributor"
+F 6 "710-61300411021" H 2800 1050 60  0001 C CNN "Distributor Part #"
+F 7 "4-THT" H 2800 1050 60  0001 C CNN "Package"
+F 8 "Embases et logements de câbles WR-PHD 2.54mm Hdr 4P Single RA Gold" H 2800 1050 60  0001 C CNN "Description"
+F 9 "Wurth Electronics" H 2800 1050 60  0001 C CNN "Manufacturer"
 	1    2800 1050
 	1    0    0    -1  
 $EndComp
