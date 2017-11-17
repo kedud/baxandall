@@ -45,24 +45,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C1
-U 1 1 56A0B8C8
-P 3000 4950
-F 0 "C1" H 3025 5050 50  0000 L CNN
-F 1 "1n" H 3025 4850 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 3038 4800 50  0001 C CNN
-F 3 "" H 3000 4950 50  0000 C CNN
-	1    3000 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R3
 U 1 1 56A0B9B1
 P 3000 5550
 F 0 "R3" V 3080 5550 50  0000 C CNN
 F 1 "24k" V 3000 5550 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 2930 5550 50  0001 C CNN
-F 3 "" H 3000 5550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2930 5550 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/mbxsma-239744.pdf" H 3000 5550 50  0001 C CNN
+F 4 "MBA02040C2402FC100" H 3000 5550 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3000 5550 60  0001 C CNN "Distributor"
+F 6 "594-5063JD24K00F" H 3000 5550 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 3000 5550 60  0001 C CNN "Package"
+F 8 "Résistances à couche mince - Trou traversant .4watt 24Kohms 1% 1/8watt body size" H 3000 5550 60  0001 C CNN "Description"
+F 9 "Vishay / Beyschlag" H 3000 5550 60  0001 C CNN "Manufacturer"
 	1    3000 5550
 	1    0    0    -1  
 $EndComp
@@ -73,42 +68,15 @@ P 2500 6000
 F 0 "C2" H 2525 6100 50  0000 L CNN
 F 1 "100n" H 2525 5900 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 2538 5850 50  0001 C CNN
-F 3 "" H 2500 6000 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3294_MMK-1101858.pdf" H 2500 6000 50  0001 C CNN
+F 4 "MMK5104K50J01L4BULK" H 2500 6000 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2500 6000 60  0001 C CNN "Distributor"
+F 6 "80-MMK5104K50J01L4" H 2500 6000 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2500 6000 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 50volts 0.1uF 10% LS 5mm" H 2500 6000 60  0001 C CNN "Description"
+F 9 "Kemet" H 2500 6000 60  0001 C CNN "Manufacturer"
 	1    2500 6000
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C3
-U 1 1 56A0BA77
-P 3400 6000
-F 0 "C3" H 3425 6100 50  0000 L CNN
-F 1 "100n" H 3425 5900 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 3438 5850 50  0001 C CNN
-F 3 "" H 3400 6000 50  0000 C CNN
-	1    3400 6000
-	1    0    0    1   
-$EndComp
-$Comp
-L R R4
-U 1 1 56A0BB29
-P 2250 6350
-F 0 "R4" V 2330 6350 50  0000 C CNN
-F 1 "5.1k" V 2250 6350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 2180 6350 50  0001 C CNN
-F 3 "" H 2250 6350 50  0000 C CNN
-	1    2250 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L R R5
-U 1 1 56A0BB82
-P 3800 6350
-F 0 "R5" V 3880 6350 50  0000 C CNN
-F 1 "5.1k" V 3800 6350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3730 6350 50  0001 C CNN
-F 3 "" H 3800 6350 50  0000 C CNN
-	1    3800 6350
-	0    1    1    0   
 $EndComp
 $Comp
 L C C4
@@ -116,43 +84,16 @@ U 1 1 56AA47F6
 P 3000 2300
 F 0 "C4" H 3025 2400 50  0000 L CNN
 F 1 "1n" H 3025 2200 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 3038 2150 50  0001 C CNN
-F 3 "" H 3000 2300 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3038 2150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3294_MMK-1101858.pdf" H 3000 2300 50  0001 C CNN
+F 4 "MMK5102J50J01L4BULK" H 3000 2300 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3000 2300 60  0001 C CNN "Distributor"
+F 6 "80-MMK5102J50J01L4" H 3000 2300 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 3000 2300 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 50volts 1000pF 5% LS 5mm" H 3000 2300 60  0001 C CNN "Description"
+F 9 "Kemet" H 3000 2300 60  0001 C CNN "Manufacturer"
 	1    3000 2300
 	1    0    0    -1  
-$EndComp
-$Comp
-L R R8
-U 1 1 56AA47FC
-P 3000 2900
-F 0 "R8" V 3080 2900 50  0000 C CNN
-F 1 "24k" V 3000 2900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 2930 2900 50  0001 C CNN
-F 3 "" H 3000 2900 50  0000 C CNN
-	1    3000 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C5
-U 1 1 56AA4802
-P 2500 3350
-F 0 "C5" H 2525 3450 50  0000 L CNN
-F 1 "100n" H 2525 3250 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 2538 3200 50  0001 C CNN
-F 3 "" H 2500 3350 50  0000 C CNN
-	1    2500 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C6
-U 1 1 56AA4808
-P 3400 3350
-F 0 "C6" H 3425 3450 50  0000 L CNN
-F 1 "100n" H 3425 3250 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 3438 3200 50  0001 C CNN
-F 3 "" H 3400 3350 50  0000 C CNN
-	1    3400 3350
-	1    0    0    1   
 $EndComp
 $Comp
 L R R9
@@ -160,20 +101,15 @@ U 1 1 56AA4814
 P 2250 3700
 F 0 "R9" V 2330 3700 50  0000 C CNN
 F 1 "5.1k" V 2250 3700 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 2180 3700 50  0001 C CNN
-F 3 "" H 2250 3700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2180 3700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/mbxsma-239744.pdf" H 2250 3700 50  0001 C CNN
+F 4 "MBA02040C5101FC100" H 2250 3700 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2250 3700 60  0001 C CNN "Distributor"
+F 6 "594-5063JD5K100F" H 2250 3700 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2250 3700 60  0001 C CNN "Package"
+F 8 "Résistances à couche mince - Trou traversant .4watt 5.1Kohms 1% 1/8watt body size" H 2250 3700 60  0001 C CNN "Description"
+F 9 "Vishay / Beyschlag" H 2250 3700 60  0001 C CNN "Manufacturer"
 	1    2250 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L R R10
-U 1 1 56AA481A
-P 3800 3700
-F 0 "R10" V 3880 3700 50  0000 C CNN
-F 1 "5.1k" V 3800 3700 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3730 3700 50  0001 C CNN
-F 3 "" H 3800 3700 50  0000 C CNN
-	1    3800 3700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -305,12 +241,12 @@ $EndComp
 $Comp
 L Conn_01x04 P1
 U 1 1 5721664E
-P 2800 1100
-F 0 "P1" H 2800 1350 50  0000 C CNN
-F 1 "CONN_01X04" V 2900 1100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 2800 1100 50  0001 C CNN
-F 3 "" H 2800 1100 50  0000 C CNN
-	1    2800 1100
+P 2800 1050
+F 0 "P1" H 2800 1300 50  0000 C CNN
+F 1 "CONN_01X04" V 2900 1050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 2800 1050 50  0001 C CNN
+F 3 "" H 2800 1050 50  0000 C CNN
+	1    2800 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -419,7 +355,7 @@ U 1 1 5A0C7426
 P 6900 3400
 F 0 "RV1" H 6900 3550 50  0000 C CNN
 F 1 "50K 1B" H 6900 3475 50  0000 C CNN
-F 2 "" H 7150 3325 50  0001 C CNN
+F 2 "potentiometers:Potentiometer_ALPS_RK09" H 7150 3325 50  0001 C CNN
 F 3 "http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09L/RK09L122002M.html" H 7150 3325 50  0001 C CNN
 F 4 "RK09L122002M" H 6900 3400 60  0001 C CNN "Mfg_Part_#"
 F 5 "Mouser" H 6900 3400 60  0001 C CNN "Distributor"
@@ -493,7 +429,7 @@ U 1 1 5A0DB04F
 P 6900 4400
 F 0 "RV2" H 6900 4550 50  0000 C CNN
 F 1 "50K 1B" H 6900 4475 50  0000 C CNN
-F 2 "" H 7150 4325 50  0001 C CNN
+F 2 "potentiometers:Potentiometer_ALPS_RK09" H 7150 4325 50  0001 C CNN
 F 3 "http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09L/RK09L122002M.html" H 7150 4325 50  0001 C CNN
 F 4 "RK09L122002M" H 6900 4400 60  0001 C CNN "Mfg_Part_#"
 F 5 "Mouser" H 6900 4400 60  0001 C CNN "Distributor"
@@ -502,5 +438,141 @@ F 7 "Potentiomètres 50 KOhms 20%" H 6900 4400 60  0001 C CNN "Description"
 F 8 "ALPS" H 6900 4400 60  0001 C CNN "Manufacturer"
 	1    6900 4400
 	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5A0EB400
+P 3000 4950
+F 0 "C1" H 3025 5050 50  0000 L CNN
+F 1 "1n" H 3025 4850 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3038 4800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3294_MMK-1101858.pdf" H 3000 4950 50  0001 C CNN
+F 4 "MMK5102J50J01L4BULK" H 3000 4950 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3000 4950 60  0001 C CNN "Distributor"
+F 6 "80-MMK5102J50J01L4" H 3000 4950 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 3000 4950 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 50volts 1000pF 5% LS 5mm" H 3000 4950 60  0001 C CNN "Description"
+F 9 "Kemet" H 3000 4950 60  0001 C CNN "Manufacturer"
+	1    3000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5A0EB7C8
+P 3400 6000
+F 0 "C3" H 3425 6100 50  0000 L CNN
+F 1 "100n" H 3425 5900 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 3438 5850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3294_MMK-1101858.pdf" H 3400 6000 50  0001 C CNN
+F 4 "MMK5104K50J01L4BULK" H 3400 6000 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3400 6000 60  0001 C CNN "Distributor"
+F 6 "80-MMK5104K50J01L4" H 3400 6000 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 3400 6000 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 50volts 0.1uF 10% LS 5mm" H 3400 6000 60  0001 C CNN "Description"
+F 9 "Kemet" H 3400 6000 60  0001 C CNN "Manufacturer"
+	1    3400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5A0EB8BD
+P 2500 3350
+F 0 "C5" H 2525 3450 50  0000 L CNN
+F 1 "100n" H 2525 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 2538 3200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3294_MMK-1101858.pdf" H 2500 3350 50  0001 C CNN
+F 4 "MMK5104K50J01L4BULK" H 2500 3350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2500 3350 60  0001 C CNN "Distributor"
+F 6 "80-MMK5104K50J01L4" H 2500 3350 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2500 3350 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 50volts 0.1uF 10% LS 5mm" H 2500 3350 60  0001 C CNN "Description"
+F 9 "Kemet" H 2500 3350 60  0001 C CNN "Manufacturer"
+	1    2500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5A0EBA1C
+P 3400 3350
+F 0 "C6" H 3425 3450 50  0000 L CNN
+F 1 "100n" H 3425 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 3438 3200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3294_MMK-1101858.pdf" H 3400 3350 50  0001 C CNN
+F 4 "MMK5104K50J01L4BULK" H 3400 3350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3400 3350 60  0001 C CNN "Distributor"
+F 6 "80-MMK5104K50J01L4" H 3400 3350 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 3400 3350 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 50volts 0.1uF 10% LS 5mm" H 3400 3350 60  0001 C CNN "Description"
+F 9 "Kemet" H 3400 3350 60  0001 C CNN "Manufacturer"
+	1    3400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5A0EC217
+P 3800 3700
+F 0 "R10" V 3880 3700 50  0000 C CNN
+F 1 "5.1k" V 3800 3700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3730 3700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/mbxsma-239744.pdf" H 3800 3700 50  0001 C CNN
+F 4 "MBA02040C5101FC100" H 3800 3700 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3800 3700 60  0001 C CNN "Distributor"
+F 6 "594-5063JD5K100F" H 3800 3700 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 3800 3700 60  0001 C CNN "Package"
+F 8 "Résistances à couche mince - Trou traversant .4watt 5.1Kohms 1% 1/8watt body size" H 3800 3700 60  0001 C CNN "Description"
+F 9 "Vishay / Beyschlag" H 3800 3700 60  0001 C CNN "Manufacturer"
+	1    3800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5A0EC499
+P 2250 6350
+F 0 "R4" V 2330 6350 50  0000 C CNN
+F 1 "5.1k" V 2250 6350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2180 6350 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/mbxsma-239744.pdf" H 2250 6350 50  0001 C CNN
+F 4 "MBA02040C5101FC100" H 2250 6350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2250 6350 60  0001 C CNN "Distributor"
+F 6 "594-5063JD5K100F" H 2250 6350 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2250 6350 60  0001 C CNN "Package"
+F 8 "Résistances à couche mince - Trou traversant .4watt 5.1Kohms 1% 1/8watt body size" H 2250 6350 60  0001 C CNN "Description"
+F 9 "Vishay / Beyschlag" H 2250 6350 60  0001 C CNN "Manufacturer"
+	1    2250 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5A0EC68D
+P 3800 6350
+F 0 "R5" V 3880 6350 50  0000 C CNN
+F 1 "5.1k" V 3800 6350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3730 6350 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/mbxsma-239744.pdf" H 3800 6350 50  0001 C CNN
+F 4 "MBA02040C5101FC100" H 3800 6350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3800 6350 60  0001 C CNN "Distributor"
+F 6 "594-5063JD5K100F" H 3800 6350 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 3800 6350 60  0001 C CNN "Package"
+F 8 "Résistances à couche mince - Trou traversant .4watt 5.1Kohms 1% 1/8watt body size" H 3800 6350 60  0001 C CNN "Description"
+F 9 "Vishay / Beyschlag" H 3800 6350 60  0001 C CNN "Manufacturer"
+	1    3800 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 5A0EC9D9
+P 3000 2900
+F 0 "R8" V 3080 2900 50  0000 C CNN
+F 1 "24k" V 3000 2900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2930 2900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/mbxsma-239744.pdf" H 3000 2900 50  0001 C CNN
+F 4 "MBA02040C2402FC100" H 3000 2900 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3000 2900 60  0001 C CNN "Distributor"
+F 6 "594-5063JD24K00F" H 3000 2900 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 3000 2900 60  0001 C CNN "Package"
+F 8 "Résistances à couche mince - Trou traversant .4watt 24Kohms 1% 1/8watt body size" H 3000 2900 60  0001 C CNN "Description"
+F 9 "Vishay / Beyschlag" H 3000 2900 60  0001 C CNN "Manufacturer"
+	1    3000 2900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
